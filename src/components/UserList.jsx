@@ -43,7 +43,7 @@ const UserList = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 lg:max-w-[40%]">
       <h1 className="text-2xl font-bold mb-4">Users</h1>
       <form onSubmit={handleSubmit} className="mb-4">
         <div className="mb-2">
